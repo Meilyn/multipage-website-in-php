@@ -20,8 +20,8 @@ body{
 }
 
 span{
-	color: #d91a5c;
-	font-family: Zapfino;
+	color: #fff;
+	font-family:'Raleway', sans-serif;
 }	
 
 /*FONTS*/
@@ -46,6 +46,29 @@ span{
  }
 
  .media-body{
- 	margin-left: 2rem;
+ 	margin-left: 1rem;
  }
 
+.mt-0{
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+@media (min-width: 768px){
+section, #services{
+	padding: 10px;
+	}
+}
+
+::-moz-selection {
+  background: #d91a5c;
+  text-shadow: none;
+}
+
+::selection {
+  background: #d91a5c;
+  text-shadow: none;
+}
+
+.text-primary {
+  color: #d91a5c !important;
+}
