@@ -1,0 +1,18 @@
+#jumbo-base {
+		background-image: url("../images/maison-de-repos.jpg") !important;
+		background-size: cover;
+		margin-bottom: 1px !important;
+	}
+.jumbotron{
+	margin-bottom: 0px;
+}
+
+
+.p-md-5 {
+		padding: 6rem !important;
+}
+
+span{
+	color: #d91a5c;
+	font-family: Zapfino;
+}	
