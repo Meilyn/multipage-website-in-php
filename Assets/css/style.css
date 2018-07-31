@@ -1,18 +1,51 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
 #jumbo-base {
-		background-image: url("../images/maison-de-repos.jpg") !important;
+		background-image: url("../images/maison-de-repos1.jpg") !important;
 		background-size: cover;
+		background-repeat: no-repeat;
+		color: black;
 		margin-bottom: 1px !important;
-	}
+/*		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/	}
 .jumbotron{
 	margin-bottom: 0px;
 }
 
 
 .p-md-5 {
-		padding: 6rem !important;
+		padding: 8rem !important;
 }
 
 span{
 	color: #d91a5c;
 	font-family: Zapfino;
 }	
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+#Senoah{
+	font-family: 'Raleway', sans-serif;
+
+}
+
+:root {
+  --Senoah: #d91a5c;
+  }
+
+ #myTab{
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ } 
+
+ .container {
+ 	margin-top: 2rem;
+ }
+
+ .media-body{
+ 	margin-left: 2rem;
+ }
+
