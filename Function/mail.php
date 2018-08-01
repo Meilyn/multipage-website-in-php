@@ -183,13 +183,22 @@
       }
     //Check if Email NOT Exist and if Empty Message
     } else {
-      if( isset($_POST['email'])) {
+      if(isset($_POST['email'])) {
         $sanemail2 = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
         $valemail2 = filter_var($sanemail2, FILTER_VALIDATE_EMAIL);
+        if ($valemail2 == false) {
+          $id = 'errorEmail';
+          $message = 'Veuillez entrez une adresse email valide';
+          errorMsg($id, $message, 'newnode8');
+        }
+      }
+
+      if (!isset($_POST['email'])) {
         $id = 'errorEmail';
         $message = 'Veuillez entrez une adresse email';
-        errorMsg($id, $message, 'newnode8');
+        errorMsg($id, $message, 'newnode8');.
       }
+
       if ($_POST['message'] == '') {
         $id = 'errorMessage';
         $message = 'Veuillez entrez un message';
