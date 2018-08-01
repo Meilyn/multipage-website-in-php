@@ -9,13 +9,3 @@
     <title>Senoah - Service d'accompagnement des seniors. ASBL</title>
   </head>
   <body>
-    <!-- Div Senoah cover -->
-     <!--  <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-              <img src="assets/images/logo.png"  alt="Senoah Logo" align="center">
-                <p class="lead" align="center">Service gratuit d’accompagnement des seniors en matière d’habitats et un observatoire des lieux de vie pour ainés
-                </p>
-          </div>
-      </div> -->
-  </body>
-  </html>
