@@ -219,3 +219,8 @@ h3.titreInfo{
 h5.subtitre {
   color: #da1259;
 }
+
+.btn-primary {
+  background-color: #ff5791 !important;
+  border-color: #ff5791 !important;
+}

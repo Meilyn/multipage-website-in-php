@@ -10,10 +10,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Accueil</a>
+              <a class="nav-link js-scroll-trigger" href="index.php">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Accompagnement</a>
+              <a class="nav-link js-scroll-trigger" href="info.php">Info</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">A propos</a>
@@ -22,7 +22,7 @@
               <a class="nav-link js-scroll-trigger" href="#team">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="contact.php">Contact</a>
             </li>
           </ul>
         </div>
