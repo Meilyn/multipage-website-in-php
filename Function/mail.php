@@ -100,7 +100,7 @@
     }
 
     //Check if Email Exist and if not Empty Message
-    if( isset($_POST['email']) && $_POST['message'] !== '' ){
+    if (isset($_POST['email']) && $_POST['message'] !== '') {
       //Create the Log
       $log['date'] = $today['weekday'].' '.$today['mday'].'/'.$today['mon'].'/'.$today['year'].' '.$today['hours'].':'.$today['minutes'].':'.$today['seconds'];
       //Sanitize, Validate Email and Sanitize Message
@@ -137,7 +137,7 @@
         //Set the subject
         $mail->Subject = $_POST['subject'];
         //Set the recipient adress and the specific service
-        $mail->addAddress('cedricfournier.pro@gmail.com', $_POST['contact_choice']);
+        $mail->addAddress('cedricfournier.pro@gmail.com', $_POST['reply_type']);
         //Set the message
         $mail->Body = $sanmessage;
         //Check if reply type is chosen
@@ -172,9 +172,8 @@
         // Verif if MSG is Send or Not
         if (!$mail->send()) {
             echo "Mailer Error: " . $mail->ErrorInfo;
-        } else {
-            echo "Message sent!";
         }
+
         echo '<pre>';
         $toput = json_encode($log, true) . ',';
         file_put_contents('./logs/logs.txt', $toput, FILE_APPEND);
@@ -196,7 +195,7 @@
       if (!isset($_POST['email'])) {
         $id = 'errorEmail';
         $message = 'Veuillez entrez une adresse email';
-        errorMsg($id, $message, 'newnode8');.
+        errorMsg($id, $message, 'newnode8');
       }
 
       if ($_POST['message'] == '') {
