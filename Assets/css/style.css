@@ -77,9 +77,9 @@ footer {
 	background-color: #000;
 	color: #fff;
 	text-align: center;
-	height: 70px;
+	height: 60px;
 }
 
 footer p{
-	margin-top: 50px !important;
+	margin: 30px !important;
 }
