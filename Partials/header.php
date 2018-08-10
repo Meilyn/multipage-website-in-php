@@ -9,7 +9,7 @@
     <script src="assets/js/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
     <!-- Fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" crossorigin="anonymous">
 </head>
